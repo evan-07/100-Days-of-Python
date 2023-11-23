@@ -57,9 +57,7 @@ def game(player_score, computer_score):
     print("Computer chose:\n")
     print(choices[computer])
     # Player chooses Rock
-    if player == 0 and computer == 0:
-        print("It's a tie!")
-    elif player == 0 and computer == 1:
+    if player == 0 and computer == 1:
         print("You lose!")
         computer_score += 1
     elif player == 0 and computer == 2:
@@ -69,8 +67,6 @@ def game(player_score, computer_score):
     elif player == 1 and computer == 0:
         print("You win!")
         player_score += 1
-    elif player == 1 and computer == 1:
-        print("It's a tie!")
     elif player == 1 and computer == 2:
         print("You lose!")
         computer_score += 1
