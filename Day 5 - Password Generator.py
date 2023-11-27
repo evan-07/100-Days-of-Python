@@ -32,5 +32,5 @@ for symbol_count in range(1,nr_symbols+1):
   password.append(random.choice(symbols))
 for number_count in range(1,nr_numbers+1):
   password.append(random.choice(numbers))
-random.shuffle(password)s
+random.shuffle(password)
 print(password)
