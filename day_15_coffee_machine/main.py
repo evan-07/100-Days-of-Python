@@ -82,7 +82,7 @@ while is_continue:
 
                 if change > 0:
                     print(f"Here is ${change} in change.") 
-                print(f"Here is your {coffee}. Enjoy!") #TODO Add emoji for coffee
+                print(f"Here is your {coffee} ☕️. Enjoy!") #TODO Add emoji for coffee
         
     
 
